@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fafafa;
+}
+
+.conteiner1 {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 80%;
+    min-height: 70vh;
+}
+
+.colunas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 70vh;
+}
+
+.coluna1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: repeating-radial-gradient(black, #0aa4d9 100px);
+    margin: 0 1rem;
+    padding: 0.6rem;
+    border-radius: 30px;
+}
+
+.coluna2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background: #fafafa;
+    margin: 0 1rem;
+}
+
+.sign-in {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+
+.login {
+    background-color: #ffffff;
+    border: 0.05rem solid lightgrey;
+    padding: 2.5rem 2.5rem 0.5rem 2.5rem;
+}
+
+.login header img {
+    padding: 0.5rem 3rem;
+}
+
+.users {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background: #ffffff;
+}
+
+input {
+    background: #fafafa;
+    font-size: X-small;
+    margin: 0.25rem 0;
+    padding: 0.75rem;
+    border-radius: 3px;
+    border: 0.05rem solid lightgrey;
+    width: 100%;
+}
+
+button {
+    background-color: #0095f6;
+    color: white;
+    font-size: x-small;
+    font-weight: bold;
+    margin: 0.25rem 0 0.25rem 0;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 3px;
+    width: 100%; 
+}
+
+.entrar {
+    background-color: #ffffff;
+}
+
+.entrar p {
+    color: #8e8e8e;
+    font-size: smaller;
+    font-weight: 400;
+    padding: 1rem 0;
+    background-color: #ffffff;
+}
+
+.entrar div {
+    padding: 0.25rem 0;
+    background-color: #ffffff;
+}
+
+.entrar div div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.entrar div div a {
+    font-size: small;
+    font-weight: 600;
+    margin-left: 0.25rem;
+    padding: 0.25rem 0;
+}
+
+.entrar div a {
+    font-size: x-small;
+}
+
+.facebook {
+    width: 1rem;
+    height: 1rem;
+}
+
+.entrar div a {
+    color: #385185;
+}
+
+.cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    margin: 1rem 0;
+    padding: 1rem 2.5575rem;
+    border: 0.05rem solid lightgrey;
+    font-size: small;
+    width: 100%;
+}
+
+.cadastro p {
+    padding: 0.25rem;
+}
+
+.cadastro a {
+    color: #0095f6;
+    font-weight: 500;
+    padding: 0.25rem;
+}
+
+.colunas div section {
+    background-color: #fafafa;
+}
+
+.download-app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fafafa;
+    padding: 0 1.5rem;
+    width: 100%;
+}
+
+.download-app p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    background: #fafafa;
+    width: 100%;
+    padding: 0.25rem 0;
+}
+
+.download-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.download-1 a {
+    margin-top: 0.25rem;
+    padding: 4.25px;
+}
+
+.download-2 {
+    width: 128px;
+    height: 38px;
+}
+
+.download-3 {
+    width: 128px;
+    height: auto;
+}
+
+.conteiner2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 1.5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: x-small;
+    text-align: center;
+    color: #8e8e8e;
+    padding: 0.125rem;
+}
+
+/* Estilização caso fosse utilizado ul e li no HTML emz vez de nav: */
+
+/* footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: x-small;
+    border: none;
+    padding: 0.125rem;
+    list-style-type: none;
+    text-align: center;
+    color: #8e8e8e;
+}
+
+footer li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+} */
+
+footer a {
+    color: #8e8e8e;
+    padding: 0.125rem;
+}
+
+.asdf {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: x-small;
+    padding: 0.25rem 0.125rem;
+}
+
+footer p {
+    text-align: center;
+    color: #8e8e8e;
+    padding: 0.125rem;
+}
+
+/* media queries */
+
+@media (max-width: 1024px) {
+    .conteiner1 {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    
+    .conteiner1 {
+        width: 90%;
+    }
+
+    .coluna1 {
+        display: none;
+    }
+
+    .coluna2 {
+        width: 100%;
+    }
+}
